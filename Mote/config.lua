@@ -14,7 +14,13 @@ math.randomseed( os.time() )
 
 --each of the dofile() calls below is a standalone demo. Uncomment one line and comment out all the others to see a particular demo. (In lua, "--" is a one-line comment, like "//" in C/C++.)
 
-dofile(scriptDirectory .. "backgroundScoling.lua")
+--Student Demo
+--dofile(scriptDirectory .. "backgroundScrollingDemo.lua")
+dofile(scriptDirectory .. "backgroundScrollingDemo_2.lua")
+
+--James Stewart
+--dofile(scriptDirectory .. "backgroundScoling.lua")
+
 --dofile(scriptDirectory .. "exampleProjects/minProject.lua")
 --dofile(scriptDirectory .. "exampleProjects/gme_01_basicWalking.lua")
 --dofile(scriptDirectory .. "exampleProjects/gme_02_walkingWithAcceleration.lua")
@@ -56,5 +62,5 @@ dofile(scriptDirectory .. "backgroundScoling.lua")
 --dofile(scriptDirectory .. "exampleProjects/platformer_3.lua")
 --dofile(scriptDirectory .. "exampleProjects/platformer_4.lua")
 --dofile(scriptDirectory .. "exampleProjects/scrollingBackground.lua")
-dofile(scriptDirectory .. "exampleProjects/parallaxScrolling.lua")
+--dofile(scriptDirectory .. "exampleProjects/parallaxScrolling.lua")
 --dofile(scriptDirectory .. "exampleProjects/spaceGame/spaceGame.lua")
