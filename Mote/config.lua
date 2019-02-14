@@ -17,12 +17,13 @@ math.randomseed( os.time() )
 --Student Demo
 --dofile(scriptDirectory .. "backgroundScrollingDemo.lua")
 --dofile(scriptDirectory .. "backgroundScrollingDemo_2.lua")
+dofile(scriptDirectory .. "playerMovmentDemo.lua")
 
 --James Stewart
 --dofile(scriptDirectory .. "backgroundScoling.lua")
 
 --dofile(scriptDirectory .. "exampleProjects/minProject.lua")
-dofile(scriptDirectory .. "exampleProjects/gme_01_basicWalking.lua")
+--dofile(scriptDirectory .. "exampleProjects/gme_01_basicWalking.lua")
 --dofile(scriptDirectory .. "exampleProjects/gme_02_walkingWithAcceleration.lua")
 --dofile(scriptDirectory .. "exampleProjects/gme_03_walkingWithAccelerationAndDrag.lua")
 --dofile(scriptDirectory .. "exampleProjects/gme_04_jumping.lua")
